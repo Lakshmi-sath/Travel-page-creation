@@ -1,0 +1,94 @@
+#hero {
+    height: 600px;
+    background-image: url("/images/pictures/Hyderabad-city.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 650px;
+    background-color: rgba(92, 173, 194, 0.6);
+    box-shadow: 1.5px 3px 6px rgb(113, 173, 183);
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    right: 380px;
+}
+
+#hero-content h1 {
+    color: rgb(126, 205, 212);
+    font-size: 40px;
+    font-family: "Merienda", sans-serif;
+    margin: 0;
+}
+
+#hero-content p {
+    color: rgb(168, 216, 220);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(149, 206, 216);
+    padding: 12px 24px;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 1.5px 3px 6px;      
+}
+
+#hero-content a:hover {
+    background-color: rgba(92, 173, 194, 1);
+}
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(174, 172, 138), rgb(196, 147, 139));
+}
+
+#highlights h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+    background: -webkit-linear-gradient(45deg, #237069, #4c34eb);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+.destination {
+    margin: 0 15px;
+}
+
+.destination p {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 22px;
+    background: -webkit-linear-gradient(45deg, #36b0a6, #204ae4);
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+
+.destination img {
+    margin: 22px;
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 5px;
+    object-fit: cover;
+}
